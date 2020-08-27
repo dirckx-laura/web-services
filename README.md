@@ -42,6 +42,7 @@ User manual:
 - open project
 - type in terminal: ./mvnw spring-boot:run
 
+©Assignments provided by Possemiers Philippe and Artesis Plantin Hogeschool.
 
 
 
