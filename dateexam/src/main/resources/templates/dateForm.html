@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html' ; charset='UTF-8'>
+
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='/js/app.js'></script>
+    <title>dateForm</title>
+</head>
+
+<body>
+    <h1>Find interval</h1>
+    <br/>
+    <form th:action='@{/findInterval}' method='POST'>
+
+        <label for='dateToCheck'>date to check: </label>
+        <input type='date' name='dateToCheck' id='dateToCheck'>
+        <br/>
+        <label for='startDate'>start date: </label>
+        <input type='date' name='startDate' id='startDate'>
+        <br/>
+        <label for='endDate'>end date: </label>
+        <input type='date' name='endDate' id='endDate'>
+        <br/>
+        <input type='SUBMIT' value='Save'>
+    </form>
+</body>
+
+</html>
