@@ -13,7 +13,7 @@ User manual:
 
 
 **Eightball**<br/>
-Assignment:
+Assignment:<br/>
 Make a WebService in Django with one url : http:localhost:/8000/question, that reads a random line from the file 'eightball.txt' and returns it in html format.
 
 User manual:
@@ -23,9 +23,9 @@ User manual:
 
 Getting an error? Be sure to change the path in \eightball\views.py to your path!
 
-**JokeApplication
-MUST USE JAVA 8!!**
-Assignment:
+**JokeApplication<br/>
+MUST USE JAVA 8!!**<br/>
+Assignment:<br/>
 Start van bijgevoegd project (unzip en import as Existing Maven Project) en maak een Spring boot WebService die toelaat om een random joke op te halen van een WebService (http://api.icndb.com/jokes/random) met een voornaam en achternaam in de request (bv. http://api.icndb.com/jokes/random?firstName=John&lastName=Doe).
 Toon de joke in een JSP pagina. Hierna sla je de joke op in een in-memory database indien ze nog niet bestaat.
 
@@ -33,8 +33,8 @@ User manual:
 - open project
 - type in terminal: ./mvnw spring-boot:run
 
-**Dateexam**
-Assignment:
+**Dateexam**<br/>
+Assignment:<br/>
 Let the user give a date, check if the date is between 2 other dates. If it is between those 2 other dates, show 'yes' and how many days it's away from when the form was submitted.
 If it's not between those 2 other dates, show 'no' and  how many days it's away from when the form was submitted.
 
