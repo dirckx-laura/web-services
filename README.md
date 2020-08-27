@@ -33,6 +33,14 @@ User manual:
 - open project
 - type in terminal: ./mvnw spring-boot:run
 
+**Dateexam**
+Assignment:
+Let the user give a date, check if the date is between 2 other dates. If it is between those 2 other dates, show 'yes' and how many days it's away from when the form was submitted.
+If it's not between those 2 other dates, show 'no' and  how many days it's away from when the form was submitted.
+
+User manual:
+- open project
+- type in terminal: ./mvnw spring-boot:run
 
 
 
